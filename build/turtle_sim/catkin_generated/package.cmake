@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "turtle_sim")
+set(turtle_sim_MAINTAINER "busygoose <busygoose@todo.todo>")
+set(turtle_sim_DEPRECATED "")
+set(turtle_sim_VERSION "0.0.0")
+set(turtle_sim_BUILD_DEPENDS "geometry_msgs" "rospy" "turtlesim")
+set(turtle_sim_RUN_DEPENDS "geometry_msgs" "rospy" "turtlesim")
+set(turtle_sim_BUILDTOOL_DEPENDS "catkin")

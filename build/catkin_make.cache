@@ -1,0 +1,2 @@
+turtle_sim
+-DCATKIN_DEVEL_PREFIX=/home/busygoose/me495_jarvis/turtle_sim/devel -DCMAKE_INSTALL_PREFIX=/home/busygoose/me495_jarvis/turtle_sim/install -G Unix Makefiles

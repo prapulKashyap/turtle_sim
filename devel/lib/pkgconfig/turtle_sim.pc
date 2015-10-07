@@ -1,0 +1,8 @@
+prefix=/home/busygoose/me495_jarvis/turtle_sim/devel
+
+Name: turtle_sim
+Description: Description of turtle_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/busygoose/me495_jarvis/turtle_sim/devel/lib 
+Requires: 
