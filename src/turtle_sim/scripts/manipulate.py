@@ -44,7 +44,6 @@ if __name__ == '__main__':
 		rospy.wait_for_service('turtle1/teleport_absolute')			# wait for the turtle simulator start running
 		#turtle_sp = rospy.ServiceProxy('/turtle1/teleport_absolute', TeleportAbsolute) 
 		#turtle_sp = (20,5,0)		#set turtle initial position
-		#rospy.init_node('steering_turtle', anonymous=True) # init node
 		manipulate(sys.argv[1])
     except rospy.ROSInterruptException:
 	pass

@@ -22,7 +22,7 @@ def manipulate(T):
 
 		vx = 12*np.pi*np.cos(4*np.pi*t/T)/T#dx/dt
 		vy = 6*np.pi*np.cos(2*np.pi*t/T)/T#dy/dt
-		us = np.sqrt(np.pow(vx,2) + np.pow(vy,2))
+		us = np.sqrt(np.power(vx,2) + np.power(vy,2))
 		ax = (-48 * np.pi * np.pi * np.sin(4 * np.pi * t / T)) / (T * T)#d2x/dt2
 		ay = (-12 * np.pi * np.pi * np.sin(2 * np.pi * t / T)) / (T * T)#d2y/dt2	
 		omega = (vx * ay - vy * ax) / (vx * vx + vy * vy)#angular velocity
